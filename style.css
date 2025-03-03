@@ -250,6 +250,14 @@ th:first-child {
 #activities main #displaySelected #sendinfo button:hover {
     background-color: #7c9b29;
 }
+/* Sticky Navbar */
+.navbar {
+    background-color: rgba(38, 41, 61, 0.7) !important;
+}
+
+.navbar .nav-link {
+    color: rgb(255, 255, 255) !important;
+}
 
 /* Highlighted selected table cell */
 .tdhighlight {
@@ -406,4 +414,10 @@ body {
 
 .cliff-card img:hover {
     transform: scale(1.05);
+}
+/* Contact Button */
+.btn-inquire {
+    background-color: #4977d1;
+    color: white;
+    font-size: 18px;
 }
